@@ -14,7 +14,7 @@ public class DemoApplication {
     @RequestMapping("/")
     public String welcome(Map<String, Object> model) {
 //        model.put("message", this.message);
-        return "Hello GOCD ";
+        return "Hello GOCD "--;
     }
 
 	public static void main(String[] args) {
